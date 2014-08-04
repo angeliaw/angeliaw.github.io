@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 缺陷例子Bug Example
-description: 
+title: 缺陷例子
+description: an Example of bug
 category: blog
 ---
 
