@@ -84,13 +84,13 @@ pre ol{margin-left:25px;list-style-type:decimal;}
     background-position:50% 50%;
 }
 .blog .aside{
-    background-image:url(http://img0.ph.126.net/a9AZkRTmmJtQpM6d1ytp5A==/3674937296034483657.jpg);
+    background-image:url(images/sidebar.jpg);
 }
 .opinion .aside{
-    background-image:url(http://img2.ph.126.net/xg-jHngsHSDN6fbBhhZ94Q==/1070730811507719950.jpg);
+    background-image:url(images/sidebar.jpg);
 }
 .project .aside{
-    background-image:url('http://img0.ph.126.net/2EKnVpsAdNixaUS2e_n7AQ==/3761631588861383688.jpg')
+    background-image:url(images/home.jpg)
 }
 .index-content .section { margin-left:30%; padding-top:80px; padding-right:15%; ;}
 
