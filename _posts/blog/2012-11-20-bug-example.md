@@ -1,12 +1,13 @@
 ---
 layout: post
-title:《如果描述缺陷？》example
-category: blog
+title: 《如果描述缺陷？》example
 description: 
+category: blog
 ---
 
 
-##缺陷例子： iPhone的相册中分享一张照片到新浪微博上，由于网络链接断掉微博发送失败，但原来写的微博文字部分内容却没保存。
+
+缺陷例子： iPhone的相册中分享一张照片到新浪微博上，由于网络链接断掉微博发送失败，但原来写的微博文字部分内容却没保存。
 
 现在流行的缺陷库管理工具都可以设定必填项，一般包括：
 1. 缺陷标题 （Summary）
