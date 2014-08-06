@@ -86,10 +86,10 @@ pre ol{margin-left:25px;list-style-type:decimal;}
 .blog .aside{
     background-image:url(images/sidebar.jpg);
 }
-.opinion .aside{
+.training .aside{
     background-image:url(images/sidebar.jpg);
 }
-.project .aside{
+.english .aside{
     background-image:url(images/home.jpg)
 }
 .index-content .section { margin-left:30%; padding-top:80px; padding-right:15%; ;}
@@ -166,8 +166,8 @@ h3.about {color:#777;margin-top:20px;font-size:22px;margin-bottom:10px}
     .index-content .artical-cate { margin-top:50px; }
 
     .blog .aside,
-    .project .aside,
-    .opinion .aside {display:none;background-image:none;}
+    .english .aside,
+    .training .aside {display:none;background-image:none;}
 }
 
 @media (max-width: 1020px){
