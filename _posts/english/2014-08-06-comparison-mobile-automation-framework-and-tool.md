@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Comparison of popular mobile automation test framework/tools
+title: Mobile App Automation Test Tools
 category: english
-description: 
+description: Comparison of popular mobile automation test framework/tools
 ---
 2014-08-06 By {{ site.author_info }}
 
@@ -16,9 +16,9 @@ Here's a list of popular automation test frameworks/tools for testing mobile app
 ###Monkey Runner
 ###Monkey Talk
 ###Selenium
-
+<br/>
 ##Appendix
 ![ssh key success](/images/english/comparisonmobiletesttool.png)
 
 [Angelia]:    http://angeliaw.github.com   "Angelia"
-[1]:    {{ page.url}}  ({{ page.title }})
+[1]:    ({{ page.title }})
