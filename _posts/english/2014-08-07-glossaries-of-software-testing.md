@@ -55,7 +55,7 @@ Compatibility Testing verifies the application still works with different remote
 ##Appendix
 ![sample testing cycle](/images/english/sampletestingcycle.png)
 ### Reference
-* [Software testing on wiki](https://www.linkedin.com/pub/angelia-wang/2b/a41/171)   
+* [Software testing on wiki](http://en.wikipedia.org/wiki/Software_testing)   
 
 [Angelia]:    http://angeliaw.github.com   "Angelia"
 [1]:    ({{ page.title }})
