@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Several Glossaries of Software Testing
+title: Glossaries of Software Testing
 category: english
 description: 
 ---
@@ -44,18 +44,18 @@ Alpha testing is simulated or actual operational testing by potential users/cust
 It is often employed for off-the-shelf software as a form of internal acceptance testing, before the software goes to beta testing. 
 ###Beta testing 
 Beta testing comes after alpha testing. Versions of the software, known as beta versions, are released to a limited audience outside of the programming team.
-###Software performance testing and load testing
+###Software performance testing
 Performance testing is executed to determine how fast a system or sub-system performs under a particular workload. It can also serve to validate and verify other quality attributes of the system, such as scalability, reliability and resource usage.
-<br/>
-<br/>Stress testing is primarily concerned with testing that can continue to operate under a specific load, whether that be large quantities of data or a large number of users. 
+###Stress testing
+Stress testing is primarily concerned with testing that can continue to operate under a specific load, whether that be large quantities of data or a large number of users. 
 ###Internationalization and localization 
 will verify that the application still works, even after it has been translated into a new language or adapted for a new culture (such as different currencies or time zones).
 ###Compatibility Testing
 Compatibility Testing verifies the application still works with different remote devices.
 ##Appendix
-![ssh key success](/images/english/sampletestingcycle.png)
+![sample testing cycle](/images/english/sampletestingcycle.png)
 ### Reference
-[1]:     https://www.linkedin.com/pub/angelia-wang/2b/a41/171    "Software testing on wiki"
+* [Software testing on wiki](https://www.linkedin.com/pub/angelia-wang/2b/a41/171)   
 
 [Angelia]:    http://angeliaw.github.com   "Angelia"
 [1]:    ({{ page.title }})

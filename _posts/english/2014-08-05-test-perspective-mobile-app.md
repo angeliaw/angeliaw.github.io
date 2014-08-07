@@ -5,7 +5,7 @@ category: english
 description: 
 ---
 2014-08-05 By {{ site.author_info }}
-Currently most companies which provides mobile apps will support both Android and iOS, so when we talk about mobile app testing, we have to consider both android and iOS.
+<br/>Currently most companies which provides mobile apps will support both Android and iOS, so when we talk about mobile app testing, we have to consider both android and iOS.
 <br/>Mobile application has 3 types, native app, web app, Hybrid app. Most enterprise apps are hybrid because their mobile apps are only an entry on mobile. End users could use this entry to visit their server like on web but in different user experience. As a mobile app tester, we're not only testing mobile app itself but also integration of mobile app and backend services, even APIs between them.
 <br/>
 ![MobileAppTesting](/images/english/MobileAppTesting005.jpg)
@@ -19,6 +19,6 @@ Currently most companies which provides mobile apps will support both Android an
 * Compatibility Testing verifies the application still works with different remote devices.
 * Internationalization and localization will verify that the application still works, even after it has been translated into a new language or adapted for a new culture (such as different currencies or time zones).
 
-> For more information about revalant definitions of software testing you can also check [glossaries of software testing](/english/2014-08-07-glossaries-of-software-testing.md)
+> For more information about revalant definitions of software testing you can also check [glossaries of software testing](/glossaries-of-software-testing)
 
 [Angelia]:    http://angeliaw.github.com  "Angelia"
