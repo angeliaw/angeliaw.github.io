@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Several glossaries of Software Testing
+title: Several Glossaries of Software Testing
 category: english
 description: 
 ---
@@ -55,7 +55,7 @@ Compatibility Testing verifies the application still works with different remote
 ##Appendix
 ![ssh key success](/images/english/sampletestingcycle.png)
 ### Reference
-1. http://en.wikipedia.org/wiki/Software_testing?diff=414051348
+[1]:     https://www.linkedin.com/pub/angelia-wang/2b/a41/171    "Software testing on wiki"
 
 [Angelia]:    http://angeliaw.github.com   "Angelia"
 [1]:    ({{ page.title }})
