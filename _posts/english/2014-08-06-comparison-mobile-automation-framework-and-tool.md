@@ -8,14 +8,14 @@ description: Comparison of popular mobile automation test framework/tools
 
 Here's a list of popular automation test frameworks/tools for testing mobile apps. Will invesigate one by one later.
 ##Popular Mobile Automation Test Frameworks
-###Calabash
-###Appium
-###OCUnit
-###Robotium
-###Monkey
-###Monkey Runner
-###Monkey Talk
-###Selenium
+* Calabash
+* Appium
+* OCUnit
+* Robotium
+* Monkey
+* Monkey Runner
+* Monkey Talk
+* Selenium
 <br/>
 ##Appendix
 ![comparisonmobiletesttool](/images/english/comparisonmobiletesttool.png)
