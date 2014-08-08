@@ -10,7 +10,7 @@ description:
 <br/>iPhone and App Store brings change to the world, millions of mobile applications came in recent 6 years and more than more applications are created everyday now. What's difference between mobile apps and traditional PC apps? 
 <br/> I summarized and collected, as below table.
 <br/>
-![compare mobile and pc apps](images/english/compareapps.png)
+![compare mobile and pc apps](/images/english/compareapps.png)
 
 ***Reference
 [App Store(iOS)](http://en.wikipedia.org/wiki/IOS_App_Store)
