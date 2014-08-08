@@ -54,7 +54,7 @@ will verify that the application still works, even after it has been translated 
 Compatibility Testing verifies the application still works with different remote devices.
 ##Appendix
 ![sample testing cycle](/images/english/sampletestingcycle.png)
-### Reference
+##Reference
 * [Software testing on wiki](http://en.wikipedia.org/wiki/Software_testing)   
 
 [Angelia]:    http://angeliaw.github.com   "Angelia"

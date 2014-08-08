@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mobile App VS. web App
+title: Mobile App VS. PC App
 category: english
 description: 
 ---
@@ -12,8 +12,8 @@ description:
 <br/>
 ![compare mobile and pc apps](/images/english/compareapps.png)
 
-***Reference
-[App Store(iOS)](http://en.wikipedia.org/wiki/IOS_App_Store)
+####Reference
+*[App Store(iOS)](http://en.wikipedia.org/wiki/IOS_App_Store)
 
 
 [Angelia]:    http://angeliaw.github.com   "Angelia"
