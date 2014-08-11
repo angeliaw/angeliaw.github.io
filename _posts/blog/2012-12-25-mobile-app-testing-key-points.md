@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [软件测试] 移动应用软件测试的几个关键点
+title: 移动应用软件测试的几个关键点
 category: blog
 description: 
 ---

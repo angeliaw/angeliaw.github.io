@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [软件测试] 移动应用测试团队的新人培训计划
+title: 移动应用测试团队的新人培训计划
 category: blog
 description: 
 ---

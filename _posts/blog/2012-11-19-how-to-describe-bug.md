@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [软件测试] 如何描述缺陷（Defect)
+title: 如何描述缺陷（Defect)
 category: blog
 description: 
 ---

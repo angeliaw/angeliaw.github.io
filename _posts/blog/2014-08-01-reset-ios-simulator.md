@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [iOS] 重置iOS simulator
+title: 重置iOS simulator
 category: blog
 description: 
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [软件测试] To测试新人
+title: To测试新人
 description: 给刚踏入测试大门和在测试路上犹豫的朋友们
 category: blog
 ---

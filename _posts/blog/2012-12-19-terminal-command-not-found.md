@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Mac] Terminal出现command not found
+title: Terminal出现command not found
 category: blog
 description: 
 ---

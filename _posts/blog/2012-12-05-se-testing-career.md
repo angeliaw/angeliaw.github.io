@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [软件测试] 浅谈软件测试职业规划
+title: 浅谈软件测试职业规划
 category: blog
 description: 
 ---
