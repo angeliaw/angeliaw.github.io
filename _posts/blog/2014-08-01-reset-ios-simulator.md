@@ -3,6 +3,7 @@ layout: post
 title: 重置iOS simulator
 category: blog
 description: 
+tags: iOS
 ---
 2014-08-01 By {{ site.author_info }}
 ***
