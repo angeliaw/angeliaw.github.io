@@ -3,6 +3,7 @@ layout: post
 title: 入住Github的第一篇博客
 description: 不入Github都不能说自己是技术人O(∩_∩)O
 category: blog
+tags: github
 ---
 ##程序员之梦
 
