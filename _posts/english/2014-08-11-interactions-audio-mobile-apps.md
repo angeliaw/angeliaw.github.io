@@ -7,6 +7,7 @@ description: Audio/Video/Recording
 2014-08-11 By {{ site.author_info }}
 ***
 Collect possible interactions that have to be considered when we design test cases.
+<br/>
 Categories | Interactions
 ------------ | ------------
 Call | Incoming call while playing
