@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Interactions between mobile apps
+title: Interactions and Interrupts
 category: english
-description: 
+description: between mobile apps
 ---
 2014-07-16 By {{ site.author_info }}
 ***
