@@ -8,6 +8,7 @@ description: Audio/Video/Recording
 ***
 Collect possible interactions that have to be considered when we design test cases.
 <br/>
+
 Categories | Interactions
 ------------ | ------------
 Call | Incoming call while playing
@@ -32,6 +33,7 @@ Interaction | Spotify
 Interaction | Notification Center
 Interaction | Control Center
 Interaction | 3rd party music app could play background
+
 <br/>
 Bebavior depends on product design, example see below table.
 ![interactions audio](/images/english/interactionsAudio.png)
