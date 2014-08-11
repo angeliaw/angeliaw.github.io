@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 缺陷例子
+title: [软件测试] 缺陷例子
 description: an Example of bug
 category: blog
 ---

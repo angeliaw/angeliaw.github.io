@@ -1,6 +1,6 @@
 ---
 layout: post
-title: iOS app发布validate错误修正
+title: [iOS] app发布validate错误修正
 category: blog
 description: 
 ---

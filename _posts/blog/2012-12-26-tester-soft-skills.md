@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 软件测试人员的加分项
+title: [软件测试] 软件测试人员的加分项
 category: blog
 description: 除了基本职责，软件测试人员还可以做什么？
 ---

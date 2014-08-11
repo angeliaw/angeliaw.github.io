@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 测试管理的一点心得
+title: [测试管理] 测试管理的一点心得
 category: blog
 description: 
 ---
