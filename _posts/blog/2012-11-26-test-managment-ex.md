@@ -3,6 +3,7 @@ layout: post
 title: 测试管理的一点心得
 category: blog
 description: 
+tags: [softwaretesting, management]
 ---
 
 

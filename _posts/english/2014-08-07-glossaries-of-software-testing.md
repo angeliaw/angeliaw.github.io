@@ -3,6 +3,7 @@ layout: post
 title: Glossaries of Software Testing
 category: english
 description: 
+tags: [softwaretesting]
 ---
 2014-08-07 By {{ site.author_info }}
 ##What is 'Software Testing'?

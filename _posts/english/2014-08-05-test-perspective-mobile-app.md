@@ -3,6 +3,7 @@ layout: post
 title: Test Perspective for Mobile App
 category: english
 description: 
+tags: mobile
 ---
 2014-08-05 By {{ site.author_info }}
 ***

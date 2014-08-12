@@ -3,6 +3,7 @@ layout: post
 title: 如何描述缺陷（Defect)
 category: blog
 description: 
+tags: [softwaretesting, bug]
 ---
 
 作为软件测试人员，最基本的一项技能就是**把所发现的缺陷（Defect）准确无歧义的表达出来**，在外企还需要全英文。 结合以前的一份总结，写下这篇博客。

@@ -3,6 +3,7 @@ layout: post
 title: Interactions and Interrupts
 category: english
 description: between mobile apps
+tags: [mobile,testcase]
 ---
 2014-07-16 By {{ site.author_info }}
 ***

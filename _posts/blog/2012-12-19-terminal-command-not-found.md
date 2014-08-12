@@ -3,6 +3,7 @@ layout: post
 title: Terminal出现command not found
 category: blog
 description: 
+tags: [mac, terminal]
 ---
 
 ###问题：

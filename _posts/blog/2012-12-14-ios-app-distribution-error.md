@@ -3,6 +3,7 @@ layout: post
 title: app发布validate错误修正
 category: blog
 description: 
+tags: iOS
 ---
 ###问题:
 利用Xcode Analyze时出现错误:this bundle is invalid. the application-identifier entitlement is not formatted correctly.... （见图1）

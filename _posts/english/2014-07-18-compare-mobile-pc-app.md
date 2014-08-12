@@ -3,6 +3,7 @@ layout: post
 title: Mobile App VS. PC App
 category: english
 description: 
+tags: mobile
 ---
 2014-07-18 By {{ site.author_info }}
 ***

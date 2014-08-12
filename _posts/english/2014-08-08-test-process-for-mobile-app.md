@@ -3,6 +3,7 @@ layout: post
 title: Test Process Sample
 category: english
 description: Based on my practice on testing mobile apps
+tags: [softwaretesting,mobile]
 ---
 2014-08-08 By {{ site.author_info }}
 ***

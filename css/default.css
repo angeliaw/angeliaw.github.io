@@ -1,6 +1,6 @@
 /**
- * Author:           Angelia
- * Contact:          http://angeliaw.github.com 
+ * Author:           
+ * Contact:          
  */
 
 /* 重置浏览器CSS */
@@ -56,9 +56,9 @@ pre ol{margin-left:25px;list-style-type:decimal;}
 
 
 /****************entry style**************/
-.sidenav { width:240px; background:#fff; float:right; padding:20px; margin-bottom:50px; box-shadow:0 1px 4px #ccc; }
+.sidenav { width:240px; background:#fff; float:right; padding:20px; margin-bottom:30px; box-shadow:0 1px 4px #ccc; }
 .sidenav h2 { font-size:18px; color:#333; margin-bottom:15px; }
-.sidenav ul { margin-bottom:50px; }
+.sidenav ul { margin-bottom:30px; }
 .sidenav li { margin-bottom:12px; word-break: break-all;}
 .sidenav a { color:#555; font-size:14px; display:block;}
 .entry{margin-bottom:80px;width:680px; float:left; background:#fff; padding:30px; box-shadow:0 2px 6px #ccc; }
@@ -69,6 +69,11 @@ pre ol{margin-left:25px;list-style-type:decimal;}
 .entry ol li{margin-bottom:5px;list-style:decimal;line-height:1.1em;}
 .entry blockquote{margin-left:25px;font-size:14px;font-style:italic}
 .entry img{max-width:670px;display:block;margin:10px auto;}
+.sidebar { width:240px; background:#fff; float:right; padding:20px; margin-bottom:30px; box-shadow:0 1px 4px #ccc; }
+.sidebar h2 { font-size:18px; color:#333; margin-bottom:15px; }
+.sidebar ul { margin-bottom:30px; }
+.sidebar li { margin-bottom:12px; }
+.sidebar a { color:#555; font-size:14px;}
 
 
 .index-content .aside {
@@ -87,10 +92,10 @@ pre ol{margin-left:25px;list-style-type:decimal;}
     background-image:url(images/sidebar.jpg);
 }
 .training .aside{
-    background-image:url(images/sidebar.jpg);
+    background-image:url(images/home.jpg);
 }
 .english .aside{
-    background-image:url(images/home.jpg)
+    background-image:url(images/sidebar.jpg)
 }
 .index-content .section { margin-left:30%; padding-top:80px; padding-right:15%; ;}
 

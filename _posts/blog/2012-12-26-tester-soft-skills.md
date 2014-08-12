@@ -3,7 +3,7 @@ layout: post
 title: 软件测试人员的加分项
 category: blog
 description: 除了基本职责，软件测试人员还可以做什么？
-tags: software testing
+tags: [softwaretesting,tester]
 ---
 2012-12-26 By {{ site.author_info }}
 ***

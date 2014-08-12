@@ -3,6 +3,7 @@ layout: post
 title: Mobile App Automation Test Tools
 category: english
 description: Comparison of popular mobile automation test framework/tools
+tags: [mobile, automation]
 ---
 2014-08-06 By {{ site.author_info }}
 ***

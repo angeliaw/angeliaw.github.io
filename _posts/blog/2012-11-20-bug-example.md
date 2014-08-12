@@ -3,6 +3,7 @@ layout: post
 title: 缺陷例子
 description: an Example of bug
 category: blog
+tags: [softwaretesting, bug]
 ---
 <br/>**缺陷例子(an example of bug)**:iPhone的相册中分享一张照片到新浪微博上，由于网络链接断掉微博发送失败，但原来写的微博文字部分内容却没保存。
 
