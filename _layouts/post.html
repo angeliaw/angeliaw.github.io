@@ -54,7 +54,7 @@ layout: default
     <aside class="sidebar">
         <section id="categories_tag">
             <span class="categories_tag">
-             {% for tag in site.tags %}<a href="/show_by_tag.html?tag={{ tag[0] }}"> {{ tag[0] }}</a>{% endfor %}
+                {% for tag in site.tags %}<a href="/show_by_tag.html?tag={{ tag[0] }}"> <u>{{ tag[0] }}</u>&nbsp;&nbsp;</a>{% endfor %}
             </span>
         </section>
     </aside>
