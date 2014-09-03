@@ -59,6 +59,12 @@ layout: default
         </section>
     </aside>
 
+    <aside class="sidebar">
+        <section id="artical-list">
+            {% for tag in site.tags %}<a href="/show_by_tag.html?tag={{ tag[0] }}">{{ tag[0] }}</a>{% endfor %}
+        </section>
+    </aside>
+
     <div class="sidenav">
         <h2>Blog</h2>
         <ul class="artical-list">

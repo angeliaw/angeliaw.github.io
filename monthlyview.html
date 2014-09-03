@@ -1,0 +1,13 @@
+---
+layout: monthly_archive
+title: 按日期浏览
+---
+<div>
+                {% for year in post.date.year %}
+                {% for month in post.date.month %}
+                <li><a href="/#{year}/#{month}/index.html">#{year}/#{month}</a></li>
+                {% endfor %}
+                {% endfor %}
+</div>
+
+
