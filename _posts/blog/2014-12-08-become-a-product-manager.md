@@ -2,7 +2,7 @@
 layout: post
 title: 成为软件行业产品经理？
 category: blog
-description: career
+description: 
 ---
 很多公司都有PM，但具体所做的事情也许根本不同，因为有的是Project Manager即项目经理，有的是Product Manager即产品经理。
 项目经理顾名思义就是负责某个项目，这个名词不仅仅是IT行业在用，建筑、设计、生产等等都有项目经理头衔。产品经理自然也不是IT行业专用。
