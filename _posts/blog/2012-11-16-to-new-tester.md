@@ -1,6 +1,6 @@
 ---
 layout: post
-title: To测试新人
+title: 写给测试新人
 description: 给刚踏入测试大门和在测试路上犹豫的朋友们
 category: blog
 tags: softwaretesting

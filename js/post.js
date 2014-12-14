@@ -38,7 +38,7 @@ $(document).ready(function(){
     });
 
     (function(){
-        var ie6 = ($.browser.msie && $.browser.version=="6.0") ? true : false;
+        //var ie6 = ($.browser.msie && $.browser.version=="6.0") ? true : false;
 
         function initHeading(){
             var h2 = [];
@@ -198,8 +198,4 @@ $(document).ready(function(){
         $('#disqus_container .comment').trigger('click');
     }
 
-    if(/css3-animation/.test(location.href)){
-        $("head").append("<link rel='stylesheet' type='text/css' href='/css/css3-ani.css'/>");
-        $.getScript('/js/css3-ani.js',function(){});
-    }
 });

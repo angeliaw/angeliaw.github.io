@@ -1,9 +1,11 @@
 ---
-layout: page
-title: 日志
+layout: list
+title: LOGS BY TAGS
 ---
-<h2>{{ page.title }}</h2>
 
+<h2>{{ page.title }}</h2>
+<script src="{{ site.baseurl }}/js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/js/jquery.query.js"></script>
 <!-- tags分类压缩到JSON数据,通过jquery.query.js插件，从URL中获取tags参数后，利用js动态插入到页面中,默认tags参数为all，显示所有文章-->
 <script>
   $(document).ready(function(){
@@ -18,10 +20,10 @@ title: 日志
         tagpost += "<li class=\"tags\"><span>" + archieves[i].postdate + "<\/span> &raquo\;<a href=\"{{ site.baseurl }}" + archieves[i].url + "\">" + archieves[i].title + "<\/a><\/li>";
       }
       tagpost += "</ul>";
-      document.getElementById("tagstitle").innerHTML = "<h1><br/>**" + curTag + "(" + archieves.length + " posts)**</h1>";
+      document.getElementById("tagstitle").innerHTML = "<h2><br/>**" + curTag + "(" + archieves.length + " posts)**</h2>";
       document.getElementById("tagposts").innerHTML = tagpost;
     } else {
-      document.getElementById("tagstitle").innerHTML = "<h1><br/>**" + curTag + "({{ site.posts | size }} posts)**</h1>";
+      document.getElementById("tagstitle").innerHTML = "<h2><br/>**" + curTag + "({{ site.posts | size }} posts)**</h2>";
     }
 
   });
@@ -32,16 +34,17 @@ title: 日志
     <a href="{{ site.baseurl }}/show_by_tag.html?tag={{ tag[0] }}"> {{ tag[0] }} |</a>
 {% endfor %}
 
-<br />
-<div id="tagstitle"></div>
-<div id="tagposts">
-  <ul> 
-    <br/>
-    {% for post in site.posts %} 
-    <li class="tags">
-      <span> {{ post.date | date: "%Y-%m-%d" }}</span> &raquo;
-      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-    </li> 
-    {% endfor %} 
-  </ul>  
+<div id="article">
+    <div id="tagstitle"></div>
+    <div id="tagposts">
+      <ul> 
+        {% for post in site.posts %} 
+        <li class="tags">
+        <span> {{ post.date | date: "%Y-%m-%d" }}</span> &raquo;
+         <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        </li> 
+        {% endfor %} 
+      <br/>
+      </ul>  
+  </div>
 </div>

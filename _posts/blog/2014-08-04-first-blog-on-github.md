@@ -17,6 +17,7 @@ tags: github
 打算把所有的博客从此搬家到github，这里本人也使用了别人辛苦的劳动成果，readme中也有介绍，在这里要感谢beiyuu，非常好的框架，复用简单。
 
 ##世界是平的
+地球村
 
 
 [Angelia]:    http://angeliaw.github.com  "Angelia"
