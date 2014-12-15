@@ -43,15 +43,9 @@ p
   font-weight:200
 }
 
-section.post-excerpt { 
-  display: inline-block; 
-  font-size:14px;
-  height:162px;
-}
-
 .posts
 {
-  font-size:17.5px;
+  font-size:18px;
   list-style:none;
   font-weight:lighter;
   line-height:200%;
@@ -62,63 +56,19 @@ section.post-excerpt {
 {
   list-style:none
 }
-.recent-posts
-{
-  background-color:#fff;
-  color:#4d4d4d;
-  box-shadow:1px 1px 0 1px #e8e8e8;
-  margin:10px 5%;
-  padding:10px 40px
-}
-
-.recent-posts h1
-{
-  padding-bottom:10px;
-  font-size:1.6em
-}
-
-.post
-{
-  padding-top: 20px;
-  padding-bottom:30px
-}
-
-.post-excerpt p {
-    margin: 0;
-    max-height: 162
-}
-
-.read-more {
-    text-decoration: none;
-}
 
 .container
 {
   width:95%;
   padding-right:0;
-  padding-top:10px
+  padding-top:10px;
+  padding-top:30px
 }
 
 .container a
 {
   border-bottom:1px #8a8a8a dotted;
   text-decoration:none
-}
-
-.post blockquote {
-  border:0px solid #999;
-  page-break-inside:avoid;
-  font-size: 14px;
-  color: gray;
-  padding: 10px 5px 5px 10px;
-  display: inherit;
-  overflow: auto;
-  height: 162;
-  line-height: 150%
-}
-
-.post blockquote p{
-  font-size: 14px;
 }
 
 #wrapper
@@ -256,6 +206,16 @@ section.post-excerpt {
   margin:0 0 0 20px
 }
 
+blockquote
+{
+  border-left:2px solid #d90006;
+  border-right:2px solid #d90006;
+  margin-left:-40px;
+  margin-right:-40px;
+  padding-left:40px;
+  background:#f3f3f7
+}
+
 ul,ol
 {
   font-weight:lighter
@@ -274,13 +234,13 @@ pre
 
 #social-wrapper a
 {
-  font-size:16px;
+  font-size:15px;
   text-indent:20px
 }
 
 #social-wrapper li
 {
-  font-size:16px;
+  font-size:15px;
   text-indent:0;
   word-spacing:10px
 }
@@ -326,7 +286,6 @@ pre
 #welcome-greeting
 {
   width:100%;
-  font-size:20px;
   padding-top:5px
 }
 
@@ -335,7 +294,7 @@ pre
   font-size:3em;
   font-weight:700;
   color:#8B7677;
-  line-height:150%
+  line-height:130%
 }
 
 #welcome-greeting h1:hover
@@ -367,12 +326,12 @@ pre
   width:100%;
   font-size:.8em;
   text-shadow:1px 1px #fff;
+  padding-left:20px;
   margin-bottom:0;
   padding-bottom:5px;
   padding-top:5px;
   margin-top:40px;
   z-index:1;
-  text-align: justify;
   color:#cdcdcd
 }
 
@@ -408,6 +367,14 @@ pre
   transition:all .2s ease 0
 }
 
+.article-title
+{
+  font-size:35px;
+  font-weight:700;
+  color:#3D3939;
+  padding-top:15px
+}
+
 .meta
 {
   text-shadow:1px 1px #fff;
@@ -427,12 +394,11 @@ img
   padding:10px 30px 0
 }
 
-.article-title
+.post
 {
-  font-size:25px;
-  font-weight:700;
   color:#3D3939;
-  padding-top:10px
+  padding-top: 10px;
+  padding-bottom:20px
 }
 
 .user-social
@@ -480,6 +446,21 @@ time
 #disqus_thread
 {
   margin-top:100px
+}
+
+.recent-posts
+{
+  background-color:#fff;
+  color:#4d4d4d;
+  box-shadow:1px 1px 0 1px #e8e8e8;
+  margin:10px 10%;
+  padding:10px 40px
+}
+
+.recent-posts h1
+{
+  padding-bottom:10px;
+  font-size:1.6em
 }
 
 .project-container
@@ -579,8 +560,8 @@ time
 
 .user-card p
 {
-  color:#cuser-card4c4c4;
-  font-size:user-card
+  color:#c4c4c4;
+  font-size:small
 }
 
 .card
@@ -746,7 +727,6 @@ time
 
 }
 
-
 @media screen and (max-width: 500px) {
   #welcome-greeting h2 {
    font-size: 15px; 
@@ -764,6 +744,8 @@ time
   #article {
       padding: 0 0px 0 0px;
   }
+
+
 
 
 .showcase-wrapper {

@@ -13,7 +13,7 @@ Screenshots will show up in Gallery app.
 ####iOS
 Simultaneously press Home button and Sleep/Wake button.
 Get screenshots from Camera Roll album in built-in app Photos.
-##2.How to get OS version of mobile devices
+###2.How to get OS version of mobile devices
 Like getting windows/linux/mac version or browser version, we also need OS version of mobile devices when some issues found.
 ####Android
  1. Find Setting app on your device.
