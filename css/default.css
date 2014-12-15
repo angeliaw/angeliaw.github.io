@@ -113,6 +113,7 @@ section.post-excerpt {
   padding: 10px 5px 5px 10px;
   display: inherit;
   overflow: auto;
+  height: 162;
   line-height: 150%
 }
 
