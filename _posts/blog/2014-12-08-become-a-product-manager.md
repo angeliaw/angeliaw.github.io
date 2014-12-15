@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 努力当一名合格的IT产品经理
+title: 修炼转型产品经理
 category: blog
 description: 
 ---
