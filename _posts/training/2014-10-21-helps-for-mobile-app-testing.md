@@ -5,9 +5,7 @@ category: training
 description: an automated testing technology for Android and iOS apps
 tags: [mobile,install]
 ---
-October 21, 2014 6:33 PM
-
-##1. How to capture screen shot on Mobile Device
+###1. How to capture screen shot on Mobile Device
 ####Android
 Press the Volume Down button and Power button at the same time, hold them for a second, then your phone/tablet will take a screenshot.
 Screenshots will show up in Gallery app.
@@ -25,7 +23,7 @@ Like getting windows/linux/mac version or browser version, we also need OS versi
  1. Open Settings app and enter “General”.
  2. select “About”, check “Version”, which is iOS version of current device
  
-##3.How to reset mobile apps
+###3.How to reset mobile apps
 In case that issues or errors occurred, user might want to use clean app by clearing cache or reseting apps.
 ####Android
  1. Open Settings app on android device,enter “Application manager” then tap on the app you want to reset.
@@ -35,7 +33,7 @@ In case that issues or errors occurred, user might want to use clean app by clea
 iOS users are not allowed to clear cache or data by application. The only way to use a clean app is uninstall app then re-install.
 Most of apps provide a feature "clear cache" inside app to help users to release storage.
 
-##4.How to install iOS test app by iTunes
+###4.How to install iOS test app by iTunes
  1. Download iTunes from Apple website. http://www.apple.com/itunes/
  2. Install iTunes to your computer. (Mac or PC)
  3. Open iTunes->Side bar menu.

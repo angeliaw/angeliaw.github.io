@@ -5,8 +5,6 @@ category: blog
 description: 
 tags: iOS
 ---
-2014-08-01 By {{ site.author_info }}
-***
 iOS 模拟器使用很长时间常出现各种错误，诸如无法输入，手势失灵等等，无论是开发还是测试都需要重置模拟器。常用的有两种方法
 
 ####使用脚本

@@ -1,7 +1,7 @@
 name: Angelia
 author: Angelia
 markdown: rdiscount
-highlighter: pygments
+highlighter: pygments 
 baseurl: 
 description: 
 github: http://www.github.com/angeliaw

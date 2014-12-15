@@ -47,6 +47,4 @@ Make sure iPhone's network is disconnected, including both Wi-Fi and 3G.
 
 <br/>当然，以上各种描述各种要求都是弹性的，上面的缺陷描述的例子一般是在大项目尤其是大团队的时候特别重要。若小团队尤其是开发和测试在同办公室工作时，描述尽可能的简洁，可能只需要一个summary开发人员就可以知道缺陷，并且很快Fix，那就没必要复杂。
 <br/>规则人定，在团队作战时必须有规则，才能使沟通更畅通。如果只有一个测试人员，各种规则可能就是牵绊，一个人处理事情太多，就要寻找更简单的办法.
-
-
 [Angelia]:    http://angeliaw.github.com  "Angelia"

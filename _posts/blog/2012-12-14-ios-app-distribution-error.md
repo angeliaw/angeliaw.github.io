@@ -18,6 +18,3 @@ tags: iOS
 ![chart 2](/images/blog/13554962363888.png)
 
 [Angelia]:    http://angeliaw.github.com  "Angelia"
-
-
-
