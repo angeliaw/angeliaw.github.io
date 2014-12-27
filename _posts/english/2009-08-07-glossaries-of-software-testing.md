@@ -5,7 +5,6 @@ category: english
 description: 
 tags: [softwaretesting]
 ---
-2014-08-07 By {{ site.author_info }}
 ##What is 'Software Testing'?
 Testing involves operation of a system or application under controlled conditions and evaluating the results. The controlled conditions should include both normal and abnormal conditions. Testing should intentionally attempt to make things go wrong to determine if things happen when they shouldn't or things don't happen when they should. It is oriented to 'detection'. 
 ##Test Plan

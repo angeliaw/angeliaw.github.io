@@ -5,7 +5,6 @@ category: english
 description: 
 tags: mobile
 ---
-2014-07-18 By {{ site.author_info }}
 ***
 <br/>In 2007, the first generation of iPhone was launched. The App Store opened on July 10, 2008, which allowed Apple to control the quality of apps for the first time and to introduce a charge on top of the basic cost of the app.On July 11, the iPhone 3G was launched and came pre-loaded with App Store support.
 <br/>iPhone and App Store brings change to the world, millions of mobile applications came in recent 6 years, more and more applications are created everyday now. 

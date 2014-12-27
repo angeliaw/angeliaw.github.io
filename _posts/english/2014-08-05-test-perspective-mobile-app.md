@@ -5,7 +5,6 @@ category: english
 description: 
 tags: mobile
 ---
-2014-08-05 By {{ site.author_info }}
 ***
 <br/>Currently most companies which provides mobile apps will support both Android and iOS, so when we talk about mobile app testing, we have to consider both android and iOS.
 <br/>Mobile application has 3 types, native app, web app, Hybrid app. Most enterprise apps are hybrid because their mobile apps are only an entry on mobile. End users could use this entry to visit their server like on web but in different user experience. As a mobile app tester, we're not only testing mobile app itself but also integration of mobile app and backend services, even APIs between them.
