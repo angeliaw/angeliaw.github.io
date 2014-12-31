@@ -208,12 +208,11 @@ p
 
 blockquote
 {
-  border-left:2px solid #d90006;
-  border-right:2px solid #d90006;
-  margin-left:-40px;
-  margin-right:-40px;
-  padding-left:40px;
-  background:#f3f3f7
+  border-left:1px solid #d90006;
+  border-right:1px solid #d90006;
+  margin-left:-10px;
+  margin-right:-10px;
+  padding-left:20px;
 }
 
 ul,ol

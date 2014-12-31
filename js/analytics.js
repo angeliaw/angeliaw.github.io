@@ -7,6 +7,5 @@
 
   ga('create', 'UA-58032801-1', 'auto');
   ga('send', 'pageview');
-
 </script>
 <!-- End Google Analytics -->
