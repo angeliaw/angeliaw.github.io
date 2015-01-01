@@ -3,7 +3,7 @@ layout: post
 title: Mac Terminal出现command not found
 category: blog
 description: 
-tags: [mac, terminal]
+tags: [mac]
 ---
 ####问题：
 在Mac上，修改了.bash_profile文件后，因为填写错误，导致回到Terminal除了cd命令，其它命令都提示”command not found“

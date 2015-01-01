@@ -53,9 +53,6 @@ will verify that the application still works, even after it has been translated 
 ###Compatibility Testing
 Compatibility Testing verifies the application still works with different remote devices.
 ##Appendix
-![sample testing cycle](/images/english/sampletestingcycle.png)
+![sample testing cycle](/assets/images/english/sampletestingcycle.png)
 ##Reference
 * [Software testing on wiki](http://en.wikipedia.org/wiki/Software_testing)   
-
-[Angelia]:    http://angeliaw.github.com   "Angelia"
-[1]:    ({{ page.title }})

@@ -1,19 +1,12 @@
-</div>
-<footer>
-<center>
-    <p class="text-muted credit">&copy; {{ site.time | date: '%Y' }} {{ site.name }} &middot; <a href="http://angeliaw.github.com"> Angelia's Blog </a>{{ site.time }}  </p>
-</center>
+<footer class="row">
+      <div class="col-ms-12 text-center">
+            <hr/>
+            &copy; {{ site.time | date: '%Y' }} - {{site.author}} All rights reserved &middot;{{ site.time }} <br/>
+            Built using 
+            {% if page.theme And page.theme != "" And page.theme != nil %}
+            <a class="{{page.theme}}-link" href="http://jekyllrb.com/">Jekyll</a>
+            {% else %}
+            <a href="http://jekyllrb.com/">Jekyll</a>
+            {% endif %}
+      </div>
 </footer>
-
- <!-- Bootstrap core JavaScript-->
-    <script src="{{ site.baseurl }}/js/jquery-1.10.2.min.js"></script>
-    <script src="{{ site.baseurl }}/js/bootstrap.min.js"></script>
-    <script src="{{ site.baseurl }}/js/bootstrap.js"></script>
-    <script type="text/javascript" src="{{ site.baseurl }}/js/default.js"></script>
-    <script type="text/javascript" src="{{ site.baseurl }}/js/post.js"></script>
-    <script type="text/javascript" src="{{ site.baseurl }}/js/jquery.query.js"></script>
-    <script type="text/javascript" src="{{ site.baseurl }}/js/analytics.js"></script>
-</body>
-
-
-</html>

@@ -10,10 +10,4 @@ tags: [softwaretesting,mobile]
 <br/>Based on product lifecycle, here's the process for testing mobile application product. It's summarized from my practice in testing different kinds of mobile apps(native,web,hybrid).In different phase, it's better to do different things. If you haven't finished preparation or have a too-simple prepartion in the initial phase,you will spend more time once testing's started. 
 <br/>A journey of one thousand miles begins with one step.Preparing and planning is the most important step.
 <br/>
-![test process sample](/images/english/ProcessForTestingMobileApp.jpg)
-
-[Angelia]:    http://angeliaw.github.com   "Angelia"
-
-
-
-
+![test process sample](/assets/images/english/ProcessForTestingMobileApp.jpg)

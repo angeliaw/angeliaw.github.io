@@ -27,9 +27,6 @@ tell application "System Events"
 	end tell
 end tell
 ```
-
+<hr>
 ####iOS模拟器设置中的重置功能，见下图
-![reset ios simulator](/images/blog/resetiossimulator.png)
-
-
-[Angelia]:    http://angeliaw.github.com  "Angelia"
+![reset ios simulator](/assets/images/blog/resetiossimulator.png)

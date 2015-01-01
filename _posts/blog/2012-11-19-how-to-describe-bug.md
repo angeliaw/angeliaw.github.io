@@ -40,4 +40,3 @@ tags: [softwaretesting, bug]
 <br/>4. 如果有外部网络或者设备等因素的影响，也尽量把外部环境描述清楚（这样有助于开发人员Fix缺陷）
 
 <br/>作为测试人员，目标只有一个———软件产品质量好。 我们的职责，不仅仅是发现问题，还需要协助开发人员解决问题。
-[Angelia]:    http://angeliaw.github.com  "Angelia"

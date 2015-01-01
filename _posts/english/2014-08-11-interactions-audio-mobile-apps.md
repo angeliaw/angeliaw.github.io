@@ -5,7 +5,6 @@ category: english
 description: Audio/Video/Recording
 tags: [mobile, testcase]
 ---
-***
 Collect possible interactions that have to be considered when we design test cases.
 <br/>
 
@@ -36,7 +35,4 @@ Interaction | 3rd party music app could play background
 
 <br/>
 Bebavior depends on product design, example see below table.
-![interactions audio](/images/english/interactionsAudio.png)
-
-
-[Angelia]:    http://angeliaw.github.com   "Angelia"
+![interactions audio](/assets/images/english/interactionsAudio.png)

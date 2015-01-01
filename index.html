@@ -1,16 +1,144 @@
 ---
-layout: home
+layout: master
+title: Home
+description: Home Page
 ---
-  <div class="recent-posts">
-    <h1>Recent Posts</h1>
 
-    <ul class="container">
-        {% for post in site.categories.blog limit: 5%}
-            <li><h4><a href="{{ post.url }}">{{ post.title }}<time class="pull-right post-list">{{ post.date | date_to_string | date: "%b %-d, %Y"  }}</time></a></h4></li>
-        {% endfor %}
-    </ul>
+	<header class="row">
+	  <div class="col-sm-6 col-md-12" style="margin-top:25px;margin-bottom:25px">
+	    <h1 id="pin">{{site.title}}</h1>
+	  </div>
+	</header>
+	<nav>
+		<div class="row" style="margin-top:25px">
+ 			<div class="col-md-4 col-sm-6 col-xs-12">
+				<a href="about/">
+					<div class="tile blue profile bord">
+						<h2 class="title">About Me</h2>
+						<p>Welcome, this is {{site.author}}, mobile tester and product manager</p>
+					</div>
+				</a>
+		    </div>
 
-    <ul><a href="{{ site.baseurl }}/article.html">View More...</a></ul>
-  </div>
+			<div class="col-md-2 col-sm-3 col-xs-6">
+				<a href="resume/" title="Resume" class="tile green bord icon-resume"></a>
+			</div>
+			<div class="col-md-2 col-sm-3 col-xs-6">
+				<div class="live-tile" data-mode="flip" data-delay="4000">
+					<div>
+						<a href="blog/" title="Blog" class="tile orange bord icon-blog"></a>
+					</div>
+					<div>
+						<a href="blog/" title="Blog" class="tile orange bord font-fix">
+						<p>Blog:</p>
+								<li>Thoughts</li>
+								<li>Notes</li>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
 
+		<div class="row">
 
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				{% for post in site.posts offset:1 limit:1 %}
+				<a href="{{post.url}}">
+					<div class="tile green bord">
+						<h3 class="title">Recent Article</h3>
+						<h4 class="title">{{ post.title }}</h4>
+						<p> {{ strip_html | truncatewords: 10 }}</p>
+					</div>
+				</a>
+				{% endfor %}
+			</div>
+
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				{% for post in site.posts limit:1 %}
+				<a href="{{post.url}}">
+					<div class="tile red bord">
+						<h3 class="title">Latest Article</h3>
+						<h4 class="title">{{ post.title }}</h4>
+						<p> {{ strip_html | truncatewords: 10 }}</p>
+					</div>
+				</a>
+				{% endfor %}
+			</div>
+
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				{% for post in site.posts %}
+					{% if post.featured == true %}
+					<a href="{{post.url}}">
+						<div class="tile orange bord">
+							<h3 class="title">Featured Article</h3>
+							<h4 class="title">{{ post.title }}</h4>
+							<p> {{ post.content | strip_html | truncatewords: 10 }}</p>
+						</div>
+					</a>
+					{% break %}
+					{% endif %}
+				{% endfor %}
+			</div>
+		</div>
+
+		<div class="row" style="margin-bottom:25px">
+			<!--<div data-delay="2000" data-mode="flip" class="live-tile flip ha fix-3">
+			<div class="col-md-2 col-sm-3 col-xs-6 flip-front ha" style="transform: rotateX(180deg); transition: all 500ms ease 0s;">
+				<a class="tile blue bord lk-ico" href="{{site.linkedin}}"></a>
+			</div>
+
+			<div class="col-md-2 col-sm-3 col-xs-6 flip-back ha" style="transform: rotateX(360deg); transition: all 500ms ease 0s;">
+				<a class="tile blue bord tw-ico" href="{{site.twitter}}"></a>
+			</div>
+		    -->
+		    
+		
+		    <div class="col-md-2 col-sm-3 col-xs-6">
+		    	<a class="tile blue bord lk-ico" href="{{site.linkedin}}"></a>
+			</div>
+
+			<div class="col-md-2 col-sm-3 col-xs-6">
+				<a href="{{site.twitter}}"  class="tile blue bord tw-ico"></a>
+			</div>
+
+			<div class="col-md-2 col-sm-3 col-xs-6">
+				<a href="{{site.facebook}}" class="tile blue bord fk-ico"></a>
+			</div>
+
+		    <div class="col-md-4 col-sm-6 col-xs-12">
+				<a href="/links/index.html" class="tile green bord">
+					<h1 class="title"><center>Favorite Links</center></h1></a>
+			</div>
+
+			<!--
+			<div class="col-md-2 col-sm-3 col-xs-6">
+				<a href="feed.xml/" class="tile purple bord rs-ico"></a>
+			</div>
+			-->
+
+			<!--<div class="col-md-2 col-sm-3 col-xs-6">
+				<a href="{{site.gplus}}" class="tile orange bord gl-ico"></a>
+			</div>
+		    -->
+
+			<!-- Mini tile -->
+			<div class="col-md-2 col-sm-3 col-xs-6 rside">
+				<div class="row">
+					<div style="padding-left:0px" class="col-md-6 col-sm-6 col-xs-6">
+					    <a href="{{site.linkedin}}" class="mtile blue bord lk-ico-sm"></a>
+					</div>
+					<div style="padding-left:0px" class="col-md-6 col-sm-6 col-xs-6">
+						<a href="{{site.twitter}}"  class="mtile blue bord tw-ico-sm"></a>
+					</div>
+				</div>
+				<div class="row">
+					<div  class="col-md-6 col-sm-6 col-xs-6 rep-1">
+						<a href="{{site.facebook}}" class="mtile blue bord fk-ico-sm"></a>
+					</div>
+					<div  class="col-md-6 col-sm-6 col-xs-6 rep-2">
+						<a href="{{site.weibo}}" class="mtile orange bord wb-ico-sm"></a>
+					</div>
+				</div>
+			</div> <!-- End of Mini tile -->
+		</div>
+	</nav>

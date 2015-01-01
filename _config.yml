@@ -1,12 +1,52 @@
-name: Angelia
-author: Angelia
-markdown: rdiscount
-highlighter: pygments 
-baseurl: 
-description: 
-github: http://www.github.com/angeliaw
-twitter: https://twitter.com/angeliawl
-facebook: https://www.facebook.com/wlangelia
-linkedin: http://www.linkedin.com
-weibo: http://weibo.com/37767312
-disqus: diqus-angeliaw
+# Configurations
+markdown: kramdown
+markdown_ext:  markdown,mkdown,mkdn,mkd,md
+highlighter: pygments
+
+# Permalinks
+permalink:        /blog/:year/:month/:day/:title
+
+# Setup
+title:            'Angelia'
+tagline:          'Angelia'
+description:      'A personal blog'
+url:              'http://localhost:4000'
+baseurl:          ''
+
+# Navigation
+navigation:
+- text: About
+  url: /about/
+- text: Blog
+  url: /blog/
+- text: Resume
+  url: /resume/
+- text: Links
+  url: /links/
+- text: Tags
+  url: /tags/
+- text: Archive
+  url : /archive/
+
+# Author Details
+author:         'Angelia'
+linkedin:       'http://www.linkedin.com'
+twitter:        'https://twitter.com/angeliawl'
+facebook:       'https://www.facebook.com/wlangelia'
+gplus:          ''
+github:         'http://www.github.com/angeliaw'
+weibo:          'http://weibo.com/37767312'
+
+# Google Analytics
+gahandler: 'UA-58032801-1'
+
+# Disqus
+disqushandler: angeliaw
+
+# Blog Configurations
+paginate: 10 # Posts per page on the blog index
+paginate_path: '/blog/page:num'
+destination: ./_site
+
+# Custom vars
+version:          0.7.9

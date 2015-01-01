@@ -1,0 +1,22 @@
+---
+layout: master
+---
+<div class="container-fluid">
+<div class="container">
+  <div class="row">
+    {% if page.theme And page.theme != "" And page.theme != nil %}
+    <div class="hidden-xs col-md-2 col-sm-3 {{page.theme}} sidebar">
+    {% else %}
+    <div class="hidden-xs col-md-2 col-sm-3 blue sidebar">
+    {% endif %}
+        {% include sidemenu.html %}
+    </div>
+    <div class="col-md-10 col-sm-9 col-md-offset-2 col-sm-offset-10">
+      <h1><a href="{{ site.baseurl }}/">{{page.title}}</a></h1>
+      {{content}}
+      {% include footer.html %}
+    </div>  
+  </div> <!-- row -->
+</div><!-- container -->
+</div> <!-- container－fluid -->
+
