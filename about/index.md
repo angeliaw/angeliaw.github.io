@@ -5,11 +5,13 @@ description: About Me page of Angelia Wang
 theme: blue
 ---
 
-I am a passionate, careful and effective software tester with strong software qauality assurance experience in the mobile domains, including mobile applications, mobile platforms as well as handset. Experienced in building up test team. To be a good product manager in mobile internet domain.On this site, you will find my blog where I put down my thoughts and learning notes, interesting links and my personal profile. You'll find ways to get in touch with me as well.
+I am a passionate, careful and effective software tester with strong software qauality assurance experience in the mobile domains, including mobile applications, mobile platforms as well as handset. Experienced in building up test team. To be a good product manager in mobile internet domain.On this site, you will find my blog where I put down my thoughts and learning notes, interesting links and my personal profile. You'll find ways to get in touch with me as well. This is my <a href="/resume/"> resume </a>.
 
 ## Contact Me
-
-For short messages and quick replies, you can contact me via [Twitter](http://twitter.com/angeliawl) or <a href="mailto:angelia.wangli@gmail.com"> Email </a>
+For short messages and quick replies, you can contact me via wechat by scanning below QR code.
+<p>![wechat](/assets/images/wechat.jpg)
+<p>
+You can also contact me via [Twitter](http://twitter.com/angeliawl) or <a href="mailto:angelia.wangli@gmail.com"> Email </a>
 
 ## Background
 

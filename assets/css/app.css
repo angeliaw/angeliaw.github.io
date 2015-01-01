@@ -336,4 +336,32 @@ a.orange-link:focus {
   font-size:small
 }
 
+.index-content .section { padding-top:0px; padding-right:15%; ;}
+
+.index-content .artical-list { margin:0 }
+.index-content .artical-list li { 
+  margin-bottom:10px; 
+}
+.index-content .title-desc {color:#999;font-size:14px;line-height:1.6em;}
+
+.index-content .artical-cate { width:70%; margin:0 auto; }
+.index-content .artical-cate li { 
+  display:inline-block; 
+  *float:left; 
+  zoom:1; 
+  font-size:20px; 
+  width:32%; 
+  cursor:pointer; 
+  font-weight:3em; 
+  text-align: center;
+  background-color: #007ff0;
+  border-left:solid 5px #007fff
+}
+.index-content .artical-cate li a,
+.index-content .artical-cate li a:visited { display:inline-block; zoom:1; color:#000; width:100%; }
+.index-content .artical-cate li a:hover { text-decoration:none; }
+.index-content .artical-cate li.on span{ color:red; }
+
+.index-content .cate-bar { height:3px; margin:0 auto;margin-bottom:100px; }
+.index-content #cateBar { display:inline-block; zoom:1; height:3px; background:red; position:relative; width:0; }
 

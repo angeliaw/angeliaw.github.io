@@ -3,7 +3,7 @@ layout: post
 title: 入住Github的第一篇博客
 description: 不入Github都不能说自己是技术人O(∩_∩)O
 category: blog
-tags: github
+tags: 
 ---
 ####程序员之梦
 作为混迹在测试队伍里非常喜爱研究新技术新语言接受新知识的酷爱和程序员待在一起的测试人员，自从2008年接触iOS之后一发不可收拾。

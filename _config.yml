@@ -23,10 +23,12 @@ navigation:
   url: /resume/
 - text: Links
   url: /links/
+- text: Category
+  url: /category/
 - text: Tags
   url: /tags/
 - text: Archive
-  url : /archive/
+  url: /archive/
 
 # Author Details
 author:         'Angelia'
@@ -36,6 +38,7 @@ facebook:       'https://www.facebook.com/wlangelia'
 gplus:          ''
 github:         'http://www.github.com/angeliaw'
 weibo:          'http://weibo.com/37767312'
+wechat:         'https://wx.qq.com'
 
 # Google Analytics
 gahandler: 'UA-58032801-1'

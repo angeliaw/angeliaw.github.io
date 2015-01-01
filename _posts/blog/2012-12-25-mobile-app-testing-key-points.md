@@ -3,7 +3,7 @@ layout: post
 title: 移动应用软件测试的几个关键点
 category: blog
 description: 
-tags: [softwaretesting, mobile]
+tags: [mobile]
 ---
 >本篇博客是我读在职硕士期间在一杂志上发表的论文摘抄。因为这几个关键点是移动应用测试不同于其它测试的关键部分，特分享给大家。
 

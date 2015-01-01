@@ -3,12 +3,6 @@ layout: master
 title: Home
 description: Home Page
 ---
-
-	<header class="row">
-	  <div class="col-sm-6 col-md-12" style="margin-top:25px;margin-bottom:25px">
-	    <h1 id="pin">Welcome</h1>
-	  </div>
-	</header>
 	<nav>
 		<div class="row" style="margin-top:25px">
  			<div class="col-md-4 col-sm-6 col-xs-12">
@@ -30,9 +24,11 @@ description: Home Page
 					</div>
 					<div>
 						<a href="blog/" title="Blog" class="tile orange bord font-fix">
-						<p>Blog:</p>
 								<li>Thoughts</li>
 								<li>Notes</li>
+								<li>Ideas</li>
+								<li>Slideshows</li>
+								<li>Life</li>
 						</a>
 					</div>
 				</div>
@@ -40,7 +36,7 @@ description: Home Page
 		</div>
 
 		<div class="row">
-
+<!--
 			<div class="col-md-4 col-sm-6 col-xs-12">
 				{% for post in site.posts offset:1 limit:1 %}
 				<a href="{{post.url}}">
@@ -52,12 +48,12 @@ description: Home Page
 				</a>
 				{% endfor %}
 			</div>
-
+-->
 			<div class="col-md-4 col-sm-6 col-xs-12">
 				{% for post in site.posts limit:1 %}
 				<a href="{{post.url}}">
 					<div class="tile red bord">
-						<h3 class="title">Latest Article</h3>
+						<h2 class="title">Latest Article</h2>
 						<h4 class="title">{{ post.title }}</h4>
 						<p> {{ strip_html | truncatewords: 10 }}</p>
 					</div>
@@ -79,6 +75,11 @@ description: Home Page
 					{% endif %}
 				{% endfor %}
 			</div>
+
+		    <div class="col-md-2 col-sm-3 col-xs-6">
+				<a href="{{site.wechat}}"  class="tile blue bord wechat-ico"></a>
+			</div>
+
 		</div>
 
 		<div class="row" style="margin-bottom:25px">
@@ -92,6 +93,10 @@ description: Home Page
 			</div>
 		    -->
 		    
+		    <div class="col-md-4 col-sm-6 col-xs-12">
+				<a href="/links/index.html" class="tile green bord">
+					<h2 class="title"><left>Favorite Links</left></h2></a>
+			</div>
 		
 		    <div class="col-md-2 col-sm-3 col-xs-6">
 		    	<a class="tile blue bord lk-ico" href="{{site.linkedin}}"></a>
@@ -105,10 +110,6 @@ description: Home Page
 				<a href="{{site.facebook}}" class="tile blue bord fk-ico"></a>
 			</div>
 
-		    <div class="col-md-4 col-sm-6 col-xs-12">
-				<a href="/links/index.html" class="tile green bord">
-					<h1 class="title"><center>Favorite Links</center></h1></a>
-			</div>
 
 			<!--
 			<div class="col-md-2 col-sm-3 col-xs-6">
@@ -122,6 +123,7 @@ description: Home Page
 		    -->
 
 			<!-- Mini tile -->
+			<!--
 			<div class="col-md-2 col-sm-3 col-xs-6 rside">
 				<div class="row">
 					<div style="padding-left:0px" class="col-md-6 col-sm-6 col-xs-6">
@@ -139,6 +141,7 @@ description: Home Page
 						<a href="{{site.weibo}}" class="mtile orange bord wb-ico-sm"></a>
 					</div>
 				</div>
+			-->
 			</div> <!-- End of Mini tile -->
 		</div>
 	</nav>

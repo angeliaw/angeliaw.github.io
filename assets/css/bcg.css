@@ -53,6 +53,12 @@ body {
 	font-size: 18px;
 }
 
+.wechat-ico {
+	background-image: url('/assets/images/wechat.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
 .wb-ico {
 	background-image: url('/assets/images/wb_ico.png');
 	background-position: center;
@@ -64,7 +70,6 @@ body {
 	background-position: center;
 	background-repeat: no-repeat;
 }
-
 
 .fk-ico {
 	background-image: url('/assets/images/fk_ico.png');
