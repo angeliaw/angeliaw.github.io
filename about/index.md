@@ -9,7 +9,7 @@ I am a passionate, careful and effective software tester with strong software qa
 
 ## Contact Me
 
-For short messages and quick replies, you can contact me via [Twitter](http://twitter.com/angeliawl) or <a href="mailto:angelia.wangli@gmail.com"> Email </a></i>
+For short messages and quick replies, you can contact me via [Twitter](http://twitter.com/angeliawl) or <a href="mailto:angelia.wangli@gmail.com"> Email </a>
 
 ## Background
 
