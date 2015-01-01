@@ -7,10 +7,13 @@ tags: [softwaretesting]
 ---
 ##What is 'Software Testing'?
 Testing involves operation of a system or application under controlled conditions and evaluating the results. The controlled conditions should include both normal and abnormal conditions. Testing should intentionally attempt to make things go wrong to determine if things happen when they shouldn't or things don't happen when they should. It is oriented to 'detection'. 
+
 ##Test Plan
 A software project test plan is a document that describes the objectives, scope, approach, and focus of a software testing effort. The process of preparing a test plan is a useful way to think through the efforts needed to validate the acceptability of a software product. The completed document will help people outside the test group understand the 'why' and 'how' of product validation. It should be thorough enough to be useful but not so overly detailed that no one outside the test group will read it. 
+
 ##Test Case
 A test case describes an input, action, or event and an expected response, to determine if a feature of a software application is working correctly. A test case may contain particulars such as test case identifier, test case name, objective, test conditions/setup, input data requirements, steps, and expected results. The level of detail may vary significantly depending on the organization and project context. 
+
 ## Test approach
 ###White box testing 
 White box testing is when the tester has access to the internal data structures and algorithms including the code that implement these.
@@ -52,6 +55,7 @@ Stress testing is primarily concerned with testing that can continue to operate
 will verify that the application still works, even after it has been translated into a new language or adapted for a new culture (such as different currencies or time zones).
 ###Compatibility Testing
 Compatibility Testing verifies the application still works with different remote devices.
+
 ##Appendix
 ![sample testing cycle](/assets/images/english/sampletestingcycle.png)
 ##Reference
