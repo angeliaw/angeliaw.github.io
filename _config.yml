@@ -10,7 +10,7 @@ permalink:        /blog/:year/:month/:day/:title
 title:            'Angelia'
 tagline:          'Angelia'
 description:      'A personal blog'
-url:              'http://localhost:4000'
+url:              
 baseurl:          ''
 
 # Navigation
