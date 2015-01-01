@@ -7,10 +7,10 @@ highlighter: pygments
 permalink:        /blog/:year/:month/:day/:title
 
 # Setup
-title:            'Angelia'
+title:            'Welcome'
 tagline:          'Angelia'
 description:      'A personal blog'
-url:              
+url:              ''
 baseurl:          ''
 
 # Navigation
