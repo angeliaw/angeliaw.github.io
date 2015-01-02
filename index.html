@@ -27,7 +27,6 @@ description: Home Page
 								<li>Thoughts</li>
 								<li>Notes</li>
 								<li>Ideas</li>
-								<li>Slideshows</li>
 								<li>Life</li>
 						</a>
 					</div>
@@ -61,6 +60,10 @@ description: Home Page
 				{% endfor %}
 			</div>
 
+		    <div class="col-md-2 col-sm-3 col-xs-6">
+				<a href="{{site.wechat}}"  class="tile blue bord wechat-ico"></a>
+			</div>
+
 			<div class="col-md-4 col-sm-6 col-xs-12">
 				{% for post in site.posts %}
 					{% if post.featured == true %}
@@ -74,10 +77,6 @@ description: Home Page
 					{% break %}
 					{% endif %}
 				{% endfor %}
-			</div>
-
-		    <div class="col-md-2 col-sm-3 col-xs-6">
-				<a href="{{site.wechat}}"  class="tile blue bord wechat-ico"></a>
 			</div>
 
 		</div>
@@ -95,7 +94,11 @@ description: Home Page
 		    
 		    <div class="col-md-4 col-sm-6 col-xs-12">
 				<a href="/links/index.html" class="tile green bord">
-					<h2 class="title"><left>Favorite Links</left></h2></a>
+					<h2 class="title"><left>Favorite Links</left></h2>
+					<li>Friends</li>
+					<li>Tech</li>
+					<li>Design</li>
+				</a>
 			</div>
 		
 		    <div class="col-md-2 col-sm-3 col-xs-6">
