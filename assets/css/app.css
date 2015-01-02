@@ -369,3 +369,26 @@ a.orange-link:focus {
 .index-content .cate-bar { height:3px; margin:0 auto;margin-bottom:100px; }
 .index-content #cateBar { display:inline-block; zoom:1; height:3px; background:red; position:relative; width:0; }
 
+#social-wrapper
+{
+  padding:20px 0;
+  padding-left: 20px
+}
+
+#social-wrapper a
+{
+  text-indent:20px;
+  color:#FCFCFC
+}
+
+#social-wrapper li
+{
+  font-size:20px;
+  text-indent:0;
+  word-spacing:10px
+}
+
+#social-wrapper a:hover
+{
+  transition:all .3s ease 0
+}
