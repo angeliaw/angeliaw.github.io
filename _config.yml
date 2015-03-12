@@ -1,17 +1,21 @@
-# Configurations
+# Site settings
+title: Angelia's Blog
+header-img: img/home-bg.jpg
+email: angeliawang@me.com
+description: "Personal Blog"
+baseurl: ""
+url: "https://angeliaw.github.com"
+twitter_username: angeliawl
+github_username:  angeliaw
+facebook_username:  wlangelia
+
+# Build settings
 markdown: rdiscount
 markdown_ext:  markdown,mkdown,mkdn,mkd,md
 highlighter: pygments
-
-# Permalinks
-permalink:        /blog/:year/:month/:day/:title
-
-# Setup
-title:            'Angelia'
-tagline:          'Angelia'
-description:      'A personal blog'
-url:              ''
-baseurl:          ''
+permalink: pretty
+paginate: 100
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
 # Navigation
 navigation:
