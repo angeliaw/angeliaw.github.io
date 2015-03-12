@@ -1,5 +1,5 @@
 # Site settings
-title: Angelia's Blog
+title: Angelia
 header-img: img/home-bg.jpg
 email: angeliawang@me.com
 description: "Personal Blog"
@@ -14,7 +14,7 @@ markdown: rdiscount
 markdown_ext:  markdown,mkdown,mkdn,mkd,md
 highlighter: pygments
 permalink: pretty
-paginate: 100
+paginate: 100 # Posts per page on the blog index
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
 # Navigation
@@ -35,7 +35,7 @@ navigation:
   url: /archive/
 
 # Author Details
-author:         'Angelia'
+author:         Angelia
 linkedin:       'http://www.linkedin.com'
 twitter:        'https://twitter.com/angeliawl'
 facebook:       'https://www.facebook.com/wlangelia'
@@ -51,7 +51,6 @@ gahandler: 'UA-58032801-1'
 disqushandler: angeliaw
 
 # Blog Configurations
-paginate: 10 # Posts per page on the blog index
 paginate_path: '/blog/page:num'
 destination: ./_site
 
