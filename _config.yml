@@ -1,7 +1,7 @@
 # Site settings
 title: Angelia
 header-img: img/home-bg.jpg
-email: angeliawang@me.com
+email: angelkinw@gmail.com
 description: "Personal Blog"
 baseurl: ""
 url: "https://angeliaw.github.com"
@@ -38,11 +38,10 @@ navigation:
 author:         Angelia
 linkedin:       'http://www.linkedin.com'
 twitter:        'https://twitter.com/angeliawl'
-facebook:       'https://www.facebook.com/wlangelia'
+facebook:       'https://www.facebook.com/'
 gplus:          ''
 github:         'http://www.github.com/angeliaw'
-weibo:          'http://weibo.com/37767312'
-wechat:         'https://wx.qq.com'
+weibo:          'http://weibo.com/'
 
 # Google Analytics
 gahandler: 'UA-58032801-1'
